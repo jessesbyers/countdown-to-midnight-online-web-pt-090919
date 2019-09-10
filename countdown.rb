@@ -9,7 +9,7 @@ def countdown(integer)
   message
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(integer)
   message = "HAPPY NEW YEAR!"
   while integer > 0
     puts "#{integer} SECOND(S)!"
